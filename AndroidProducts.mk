@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pb_xun.mk
+    $(LOCAL_DIR)/twrp_xun.mk
 
 COMMON_LUNCH_CHOICES := \
-    pb_xun-user \
-    pb_xun-userdebug \
-    pb_xun-eng
+    twrp_xun-user \
+    twrp_xun-userdebug \
+    twrp_xun-eng

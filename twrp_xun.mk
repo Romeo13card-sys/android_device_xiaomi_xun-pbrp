@@ -23,10 +23,10 @@ PRODUCT_PLATFORM := bengal
 $(call inherit-product, device/xiaomi/xun/device.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := pb_xun
+PRODUCT_NAME := twrp_xun
 PRODUCT_DEVICE := xun
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Pad SE
